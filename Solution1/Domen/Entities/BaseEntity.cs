@@ -23,16 +23,8 @@ namespace Domen.Entities
         /// <summary>
         /// Имя, Фамилия, Дата рождения и пол персоны
         /// </summary>
-        protected string FirstName { get; set; }
-        protected string LastName { get; set; }
         protected DateTime DateOfBirth { get; set; }
-        protected Gender UserGender { get; set; }
-        public enum Gender
-        {
-            Male,
-            Female,
-            Other
-        }
+
         /// <summary>
         /// Метод для сравнения сущностей по айди
         /// </summary>
