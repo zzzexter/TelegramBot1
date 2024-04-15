@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "o7PMv83Ag0TsG4KZVAIt+z6HixBcReKTah7wX00MGAXe0Xbz3uCZiKmmsUrxWaKZh/QpmU0y4cS1Dv1VWkSg0A==",
+  "dgSpecHash": "rVIfaD7zFYMFQ2L2NJMW/rzlfT6HEiJ/xjCjHGb3AJsj8lyHoGpkIPDGKAx/RBF1VaSeTrx+X9GEVvRfogQL/g==",
   "success": true,
   "projectFilePath": "G:\\Stepa\\TelegramBot\\Solution1\\Domen\\Domen.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512"
+  ],
   "logs": []
 }

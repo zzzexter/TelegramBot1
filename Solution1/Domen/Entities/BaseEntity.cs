@@ -47,11 +47,5 @@ namespace Domen.Entities
         {
              return Id.GetHashCode();
         }
-
-        /// <summary>
-        /// To Do Домашнее задание. Почему студия заставила переопределить GetHashCode. Перезаписать GetHashCode & Equals* 
-        /// </summary>
-        /// <returns></returns>
-        /// <exception cref="NotImplementedException"></exception>
     }
 }

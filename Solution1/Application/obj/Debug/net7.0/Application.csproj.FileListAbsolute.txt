@@ -1,0 +1,5 @@
+G:\Stepa\TelegramBot\Solution1\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
+G:\Stepa\TelegramBot\Solution1\Application\obj\Debug\net7.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+G:\Stepa\TelegramBot\Solution1\Application\obj\Debug\net7.0\Application.AssemblyInfoInputs.cache
+G:\Stepa\TelegramBot\Solution1\Application\obj\Debug\net7.0\Application.AssemblyInfo.cs
+G:\Stepa\TelegramBot\Solution1\Application\obj\Debug\net7.0\Application.csproj.CoreCompileInputs.cache
