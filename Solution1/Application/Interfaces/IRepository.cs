@@ -14,6 +14,7 @@ namespace Application.Interfaces
         /// <param name="id"></param>
         /// <returns></returns>
         public TEntity GetById(Guid id);
+
         public TEntity Add(TEntity person);
 
         public TEntity Update(TEntity person);
