@@ -8,12 +8,19 @@ using Domen.Primitivies;
 
 namespace Application.DTOs
 {
+    /// <summary>
+    /// Скачать Docker DataGrip 
+    /// </summary>
     public class PersonGetByIdResponse
     {
-        public FullName FullName { get; private set; }
+        protected Guid Id { get; set; }
+        public string FirstName { get; private set; }
+        public string LastName { get; private set; }
+        public string MiddleName { get; private set; }
         public DateTime BirthDay { get; private set; }
-        public int Age => DateTime.Now.Year - BirthDay.Year;
-        public Gender Gender { get; private set; }
+
+        public int Age;
+        public string Gender { get; private set; }
         public string PhoneNumber { get; private set; }
         public string Telegram { get; private set; }
     }

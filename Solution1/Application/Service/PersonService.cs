@@ -20,7 +20,6 @@ namespace Application.Service
             _personRepository = personRepository;
             _mapper = mapper;
         }
-
         public PersonGetByIdResponse GetById(Guid id)
         {
             var person = _personRepository.GetById(id);
@@ -28,10 +27,10 @@ namespace Application.Service
             {
                 throw new Exception();
             }
-
+            // ToDo: Замаппить
             var response = _mapper.Map<PersonGetByIdResponse>(person);
             return response;
         }
+        // ToDo: Описать PersonService до конца
     }
-}
 }
